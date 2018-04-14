@@ -1,0 +1,8 @@
+mkdir ~/Projects/h1tori.github.com
+cd ~/Projects/h1tori.github.com
+git init
+echo 'Hello world!' > index.html
+git add .
+git commit -m 'Initial commit'
+git remote add origin git@github.com:h1tori/h1tori.github.com.git
+git push -u origin master
